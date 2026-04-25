@@ -4,7 +4,8 @@ Ce guide explique comment configurer votre centrale Somfy Protexiom pour qu'elle
 
 ## Prérequis
 
-- Centrale Somfy Protexiom équipée d'un **module IP**
+- Centrale Somfy Protexiom équipée d'un **module IP** et d'un **module RTC** (transmetteur téléphonique analogique)
+- La fonction « SMS par Internet » doit être disponible dans les réglages de la centrale. Cette fonction n'existe que sur les centrales équipées d'un module RTC — les centrales disposant nativement d'un module GSM (ex. : Protexium ~2017) ne la proposent pas et ne sont pas compatibles
 - Le module IP doit permettre la configuration d'un **DNS personnalisé** (les dernières versions de certaines centrales ne proposent plus cette option — dans ce cas, votre centrale n'est pas compatible pour le moment)
 
 ## Principe

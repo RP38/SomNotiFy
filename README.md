@@ -6,7 +6,7 @@ Système de relais d'alertes conçu pour être utilisé comme extension des syst
 >
 > Ce logiciel est fourni « TEL QUEL », sans aucune garantie. Vous êtes seul responsable de son installation, de sa configuration et de son utilisation, y compris de la sécurisation de votre réseau et de vos systèmes. Utilisez-le uniquement sur des appareils qui vous appartiennent et des réseaux que vous administrez.
 
-> **Compatibilité** : testé uniquement sur Somfy Protexiom.
+> **Compatibilité** : testé uniquement sur Somfy Protexiom. La fonction « SMS par Internet » (service 123-sms.net) est nécessaire au fonctionnement de SomeNotify. Cette fonction était historiquement présente sur les centrales équipées d'un module RTC uniquement (le RTC ne permettant pas l'envoi de SMS). Les centrales disposant nativement d'un module GSM (ex. : Protexium à partir de ~2017) ne proposent pas cette fonction et ne sont donc pas compatibles.
 
 > **Limitation** : SomeNotify repose entièrement sur le réseau local et la connexion internet. En cas de coupure de courant ou de panne internet, le système ne sera pas en mesure de transmettre les alertes vers les backends configurés. Un backend GSM (envoi de SMS sans passer par internet) pourrait être ajouté à l'avenir pour pallier ce problème. Côté alimentation, une batterie externe sur le Raspberry Pi permettrait de maintenir le service en cas de coupure de courant.
 
